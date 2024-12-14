@@ -1,0 +1,76 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+  }
+  
+  .container {
+    width: 100%;
+    max-width: 800px;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  .error-message h1 {
+    font-family: 'Georgia', serif;
+    font-weight: bold;
+    font-size: 40px;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .error-message p {
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 20px;
+  }
+  
+  .emoji {
+    font-size: 50px;
+  }
+  
+  .go-home-btn {
+    background-color: #3498DB;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    font-size: 18px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .go-home-btn:hover {
+    background-color: #2980B9;
+    transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+  }
+  
+  .go-home-btn:active {
+    transform: scale(1);
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 600px) {
+    .error-message h1 {
+      font-size: 30px;
+    }
+  
+    .error-message p {
+      font-size: 16px;
+    }
+  
+    .go-home-btn {
+      width: 100%;
+      padding: 15px;
+    }
+  }
+  
